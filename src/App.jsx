@@ -4,15 +4,15 @@ import './App.css'
 
 import { Outlet } from 'react-router-dom'
 import Menu from './components/Menu'
+import Rodape from './components/Rodape'
 
 function App() {
 
   return (
     <>
-      <p>Exemplo de roteamento de páginas.</p>
       <Menu/>
       <Outlet/>
-      <p>Rodapé</p>
+      <Rodape/>
     </>
   )
 }
