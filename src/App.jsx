@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+      <p>Exemplo de roteamento de páginas.</p>
       <Menu/>
       <Outlet/>
       <p>Rodapé</p>
